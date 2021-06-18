@@ -19,7 +19,7 @@ Resources:
         ComputeType: BUILD_GENERAL1_SMALL
         Image: aws/codebuild/amazonlinux2-x86_64-standard:2.0
       Source:
-        Location: https://github.com/soumoks/sam-python-example.git
+        Location: https://github.com/yasenn/sam-lambda.git
         Type: GITHUB
         GitCloneDepth: 1
       Triggers:
